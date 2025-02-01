@@ -1,0 +1,27 @@
+/Users/dylanparker/Senior Capstone/bin/Debug/net6.0/appsettings.Development.json
+/Users/dylanparker/Senior Capstone/bin/Debug/net6.0/appsettings.json
+/Users/dylanparker/Senior Capstone/bin/Debug/net6.0/Senior Capstone
+/Users/dylanparker/Senior Capstone/bin/Debug/net6.0/Senior Capstone.deps.json
+/Users/dylanparker/Senior Capstone/bin/Debug/net6.0/Senior Capstone.runtimeconfig.json
+/Users/dylanparker/Senior Capstone/bin/Debug/net6.0/Senior Capstone.dll
+/Users/dylanparker/Senior Capstone/bin/Debug/net6.0/Senior Capstone.pdb
+/Users/dylanparker/Senior Capstone/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/dylanparker/Senior Capstone/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/dylanparker/Senior Capstone/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/dylanparker/Senior Capstone/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/dylanparker/Senior Capstone/obj/Debug/net6.0/Senior Capstone.csproj.AssemblyReference.cache
+/Users/dylanparker/Senior Capstone/obj/Debug/net6.0/Senior Capstone.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dylanparker/Senior Capstone/obj/Debug/net6.0/Senior Capstone.AssemblyInfoInputs.cache
+/Users/dylanparker/Senior Capstone/obj/Debug/net6.0/Senior Capstone.AssemblyInfo.cs
+/Users/dylanparker/Senior Capstone/obj/Debug/net6.0/Senior Capstone.csproj.CoreCompileInputs.cache
+/Users/dylanparker/Senior Capstone/obj/Debug/net6.0/Senior Capstone.MvcApplicationPartsAssemblyInfo.cs
+/Users/dylanparker/Senior Capstone/obj/Debug/net6.0/Senior Capstone.MvcApplicationPartsAssemblyInfo.cache
+/Users/dylanparker/Senior Capstone/obj/Debug/net6.0/staticwebassets.build.json
+/Users/dylanparker/Senior Capstone/obj/Debug/net6.0/staticwebassets.development.json
+/Users/dylanparker/Senior Capstone/obj/Debug/net6.0/scopedcss/bundle/Senior Capstone.styles.css
+/Users/dylanparker/Senior Capstone/obj/Debug/net6.0/Senior Capstone.csproj.CopyComplete
+/Users/dylanparker/Senior Capstone/obj/Debug/net6.0/Senior Capstone.dll
+/Users/dylanparker/Senior Capstone/obj/Debug/net6.0/refint/Senior Capstone.dll
+/Users/dylanparker/Senior Capstone/obj/Debug/net6.0/Senior Capstone.pdb
+/Users/dylanparker/Senior Capstone/obj/Debug/net6.0/Senior Capstone.genruntimeconfig.cache
+/Users/dylanparker/Senior Capstone/obj/Debug/net6.0/ref/Senior Capstone.dll
