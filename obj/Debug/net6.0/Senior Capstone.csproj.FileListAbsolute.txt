@@ -25,3 +25,4 @@
 /Users/dylanparker/Senior Capstone/obj/Debug/net6.0/Senior Capstone.pdb
 /Users/dylanparker/Senior Capstone/obj/Debug/net6.0/Senior Capstone.genruntimeconfig.cache
 /Users/dylanparker/Senior Capstone/obj/Debug/net6.0/ref/Senior Capstone.dll
+/Users/dylanparker/Senior Capstone/bin/Debug/net6.0/Newtonsoft.Json.dll

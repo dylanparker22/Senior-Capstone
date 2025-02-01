@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "EzC63jl2KMsrSiVCsqTzBh8XVgrsSFYswoy2b2HaRCuaVhWOcIFH82zeJRdZoU3gWkBJYmkuhxaqfphx3ZiGnQ==",
+  "dgSpecHash": "iMiBgKnp027/kP57Y0Ibfc/KzqJfRzd8CV5NL/MsXoyVsEVisg2NMjTlYyzPJRbuRHX1orU+hS284yDsiQC5TA==",
   "success": true,
   "projectFilePath": "/Users/dylanparker/Senior Capstone/Senior Capstone.csproj",
   "expectedPackageFiles": [
     "/Users/dylanparker/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/dylanparker/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/dylanparker/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/dylanparker/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/Users/dylanparker/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "/Users/dylanparker/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
