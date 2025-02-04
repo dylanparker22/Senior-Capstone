@@ -28,7 +28,7 @@ jobs:
         run: |
           cd client/fetch-api-app
           rm -rf node_modules package-lock.json
-          npm ci
+          npm install
 
       - name: Install OIDC Client from Core Package
         run: |
