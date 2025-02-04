@@ -44,10 +44,13 @@ jobs:
                return await coredemo.getIDToken()
            result-encoding: string
       
+      - name: Check node_modules
+        run: ls -la node_modules/.bin
+          
       - name: Build React App
         run: |
           cd client/fetch-api-app
-          npm run build
+          npx react-scripts build
 
       - name: Build And Deploy to Azure
         id: builddeploy
