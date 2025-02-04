@@ -1,3 +1,4 @@
+
 name: Azure Static Web Apps CI/CD
 
 on:
@@ -40,6 +41,7 @@ jobs:
         id: idtoken
         with:
            script: |
+               cd client/fetch-api-app
                const coredemo = require('@actions/core')
                return await coredemo.getIDToken()
            result-encoding: string
