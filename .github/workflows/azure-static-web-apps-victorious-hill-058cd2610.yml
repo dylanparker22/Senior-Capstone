@@ -45,7 +45,9 @@ jobs:
            result-encoding: string
       
       - name: Check node_modules
-        run: ls -la node_modules/.bin
+        run: |
+          cd client/fetch-api-app
+          ls -la node_modules/.bin
           
       - name: Build React App
         run: |
