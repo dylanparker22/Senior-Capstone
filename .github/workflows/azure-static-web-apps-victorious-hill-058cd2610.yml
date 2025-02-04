@@ -23,6 +23,9 @@ jobs:
           cd client/fetch-api-app
           npm install  # Use install since package-lock.json is missing
 
+      - name: Verify directory structure
+        run: ls -la client/fetch-api-app
+        
       - name: Build React app
         run: |
           cd client/fetch-api-app
