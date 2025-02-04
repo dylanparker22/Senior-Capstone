@@ -28,10 +28,12 @@ jobs:
         run: |
           cd client/fetch-api-app
           rm -rf node_modules package-lock.json
-          npm install
+          npm ci
 
       - name: Install OIDC Client from Core Package
-        run: npm install @actions/core@1.6.0 @actions/http-client
+        run: |
+          cd client/fetch-api-app
+          npm install @actions/core@1.6.0 @actions/http-client
       
       - name: Get Id Token
         uses: actions/github-script@v6
