@@ -26,6 +26,7 @@ jobs:
       # Force a clean install of dependencies to avoid missing packages
       - name: Clean Install Dependencies
         run: |
+          cd client/fetch-api-app
           rm -rf node_modules package-lock.json
           npm install
 
