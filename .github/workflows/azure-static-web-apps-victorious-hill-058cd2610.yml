@@ -24,7 +24,7 @@ jobs:
           npm install  # Use install since package-lock.json is missing
 
       - name: Verify directory structure
-        run: ls -la client/fetch-api-app
+        run: ls -la client/fetch-api-app/node_modules
         
       - name: Build React app
         run: |
