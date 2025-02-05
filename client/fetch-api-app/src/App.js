@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './App.css';
 
 function App() {
   // State to store the fetched JSON data
@@ -44,9 +45,10 @@ function App() {
   return (
     <div>
       <h1>Fetched JSON Data:</h1>
-      <pre>{JSON.stringify(data, null, 2)}</pre>
+      <pre className="json-output">{JSON.stringify(data, null, 2)}</pre>
     </div>
   );
+  
 }
 
 export default App;

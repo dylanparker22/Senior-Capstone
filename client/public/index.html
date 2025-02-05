@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Data Fetch</title>
+</head>
+<body>
+    <h1>API Response</h1>
+
+    <div id="api-container">Loading data...</div> <!-- This is the element we'll target -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            async function fetchData() {
+                try {
+                    console.log("Fetching data from API...");
+
+                    const response = await fetch(
+                        "https://dylan22-adfzeghfhsaqbvck.centralus-01.azurewebsites.net/api/espn/college-football-scoreboard",
+                        { mode: "cors" }
+                    );
+
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+
+                    const data = await response.json();
+                    console.log("Received data:", data); // Log data to console
+                    displayData(data);
+
+                } catch (error) {
+                    console.error("Error fetching data:", error);
+                    document.getElementById("api-container").innerHTML = `<p style='color:red;'>Error loading data: ${error.message}</p>`;
+                }
+            }
+
+            function displayData(data) {
+                const container = document.getElementById("api-container"); // Ensure this exists
+                container.innerHTML = ""; // Clear "Loading data..."
+
+                // If data is an array, display as a list
+                if (Array.isArray(data)) {
+                    const list = document.createElement("ul");
+
+                    data.forEach(item => {
+                        const listItem = document.createElement("li");
+                        listItem.textContent = JSON.stringify(item); // Convert object to string
+                        list.appendChild(listItem);
+                    });
+
+                    container.appendChild(list);
+                } else {
+                    // If data is an object, display as a table
+                    const table = document.createElement("table");
+                    table.border = "1";
+                    table.style.borderCollapse = "collapse";
+                    table.style.marginTop = "10px";
+
+                    for (const key in data) {
+                        if (Object.hasOwnProperty.call(data, key)) {
+                            const row = document.createElement("tr");
+
+                            const keyCell = document.createElement("td");
+                            keyCell.textContent = key;
+                            keyCell.style.fontWeight = "bold";
+                            keyCell.style.padding = "5px";
+
+                            const valueCell = document.createElement("td");
+                            valueCell.textContent = JSON.stringify(data[key], null, 2);
+                            valueCell.style.padding = "5px";
+
+                            row.appendChild(keyCell);
+                            row.appendChild(valueCell);
+                            table.appendChild(row);
+                        }
+                    }
+
+                    container.appendChild(table);
+                }
+            }
+
+            fetchData();
+        });
+    </script>
+</body>
+</html>
+
