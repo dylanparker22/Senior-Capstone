@@ -3,26 +3,8 @@
 }
 
 .App-logo {
+  height: 40vmin;
   pointer-events: none;
-}
-
-.json-output {
-  background-color: #9b2222; /* Dark background */
-  color: #eaeaea; /* Green JSON text */
-  padding: 15px;
-  border-radius: 8px;
-  white-space: pre-wrap;
-  overflow-x: auto;
-  font-family: monospace;
-  border: 1px solid #333;
-}
-
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #14473c; /* Change this to any color (e.g., blue) */
-  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,7 +14,7 @@ body {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0b49c6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
