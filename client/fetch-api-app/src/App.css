@@ -31,6 +31,20 @@
   font-size: 18px;
 }
 
+.navbar button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.navbar button:hover {
+  color: #61dafb;
+}
+
+
 .content {
   padding: 20px;
 }

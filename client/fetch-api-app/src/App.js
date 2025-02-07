@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './App.css';
 
 function App() {
+  const navigate = useNavigate(); // Define navigate
+
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -36,12 +39,12 @@ function App() {
       </header>
 
       <nav className="navbar">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Scores</a></li>
-          <li><a href="#">Teams</a></li>
-          <li><a href="#">Standings</a></li>
-        </ul>
+      <ul>
+        <li><button onClick={() => navigate("/")}>Home</button></li>
+        <li><button onClick={() => navigate("/scores")}>Scores</button></li>
+        <li><button onClick={() => navigate("/teams")}>Teams</button></li>
+        <li><button onClick={() => navigate("/standings")}>Standings</button></li>
+      </ul>
       </nav>
 
       <main className="content">

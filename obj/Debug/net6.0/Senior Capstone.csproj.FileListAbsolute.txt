@@ -26,6 +26,10 @@
 /Users/dylanparker/Senior Capstone/obj/Debug/net6.0/Senior Capstone.genruntimeconfig.cache
 /Users/dylanparker/Senior Capstone/obj/Debug/net6.0/ref/Senior Capstone.dll
 /Users/dylanparker/Senior Capstone/bin/Debug/net6.0/Newtonsoft.Json.dll
-/Users/dylanparker/Senior Capstone/bin/Debug/net6.0/client/package-lock.json
 /Users/dylanparker/Senior Capstone/bin/Debug/net6.0/client/package.json
 /Users/dylanparker/Senior Capstone/bin/Debug/net6.0/client/public/manifest.json
+/Users/dylanparker/Senior Capstone/bin/Debug/net6.0/client/fetch-api-app/package-lock.json
+/Users/dylanparker/Senior Capstone/bin/Debug/net6.0/client/fetch-api-app/package.json
+/Users/dylanparker/Senior Capstone/bin/Debug/net6.0/client/fetch-api-app/public/manifest.json
+/Users/dylanparker/Senior Capstone/bin/Debug/net6.0/package-lock.json
+/Users/dylanparker/Senior Capstone/bin/Debug/net6.0/package.json
