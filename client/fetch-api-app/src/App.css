@@ -1,52 +1,29 @@
-.App {
+.Home {
   text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  padding: 20px;
-  color: white;
-  font-size: 24px;
+.sport-selection {
+  margin-top: 20px;
 }
 
-.navbar {
-  background-color: #333;
-  padding: 10px;
+.sport-selection select {
+  font-size: 16px;
+  padding: 5px;
 }
 
-.navbar ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-
-.navbar li {
-  margin: 0 15px;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
+.sport-selection button {
   font-size: 18px;
-}
-
-.navbar button {
-  background: none;
-  border: none;
-  color: white;
-  font-size: 18px;
+  padding: 10px 20px;
+  margin-top: 10px;
   cursor: pointer;
-  text-decoration: underline;
 }
 
-.navbar button:hover {
-  color: #61dafb;
+.sport-selection button:hover {
+  background-color: #61dafb;
 }
 
-
-.content {
-  padding: 20px;
+.Scores {
+  text-align: center;
 }
 
 .scoreboard {
@@ -64,11 +41,10 @@
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.game h2 {
-  font-size: 20px;
+.game h3 {
+  font-size: 18px;
   margin-bottom: 10px;
 }
 
-.game p {
-  font-size: 16px;
-}
+
+
